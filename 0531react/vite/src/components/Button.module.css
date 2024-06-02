@@ -1,0 +1,11 @@
+.button {
+  width: 77px;
+  height: 44px;
+  border-radius: 8px;
+  /* background-color: ; */
+}
+
+.active {
+  color: #ccc;
+  background-color: green;
+}

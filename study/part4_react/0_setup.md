@@ -16,3 +16,6 @@
 rafce
 
 스니펫 커스터마이징 가능
+
+react developer tools 크롬 확장
+view>word wrap

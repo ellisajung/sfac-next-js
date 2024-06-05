@@ -19,3 +19,5 @@ rafce
 
 react developer tools 크롬 확장
 view>word wrap
+개발자도구 components - 디버깅
+커맨드 +p : reload window

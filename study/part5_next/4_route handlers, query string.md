@@ -46,3 +46,33 @@ const BlogPage =(params:any)=>{
 
 export default BlogPage
 ```
+
+# 쿼리 스티링
+
+```tsx
+function LoginPage(params: any) {
+  console.log(params);
+  return <div>LoginPage</div>;
+}
+
+export default LoginPage;
+```
+
+- 이때 브라우저의 콘솔에는 출력되지 않고 서버 콘솔에서 확인 가능
+
+```tsx
+type TLoginProps = {
+  params: string;
+  searchParams: {
+    lang: string;
+  };
+};
+
+function LoginPage(params: TLoginProps) {
+  const { searchParams } = params;
+  console.log(searchParams.lang);
+  return <div>LoginPage</div>;
+}
+
+export default LoginPage;
+```

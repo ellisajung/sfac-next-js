@@ -4,7 +4,7 @@
 
 ## layout.tsx
 
-- 루트 layout에 테일윈드가 정의된 global.css를 임포트
+- 루트 layout에만 테일윈드가 정의된 global.css를 임포트
 - 하위 레이아웃, 페이지 및 컴포넌트에서 테일윈드 사용 가능
 
 ## react-icons

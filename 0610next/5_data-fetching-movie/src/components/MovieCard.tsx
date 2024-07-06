@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { thumbnail01 } from "../../public/assets/assets";
 import { star } from "../../public/assets/assets";
+
 export default function MovieCard(props: any) {
   const { title, poster_path, vote_average, release_date } = props;
   return (

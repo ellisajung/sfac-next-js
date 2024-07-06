@@ -16,7 +16,7 @@
 
 ### app Routing Convention
 
-- 같은 중첩 다이나믹 경로에서 다이나믹 경로 이름은 고유해야함
+- 같은 중첩레벨 다이나믹 경로에서 다이나믹 경로 이름은 고유해야함
 
 #### slug
 
@@ -37,7 +37,7 @@
 - Opt folder and all child segments out of routing
 - child도 라우팅에서 벗어난다는 점에서 소괄호와 다름. 유지 보수용으로 사용 용이. 유지 보수할 때 잠시 프라이빗 설정해놨다가 끝나면 푸는 식으로.
 
-# 폴더(라우트) 구조 시각화 사이트
+# 폴더(라우트) 트리 구조 시각화 사이트
 
 https://tree.nathanfriend.io/
 
